@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EcoLife - Sustainable Living</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <header>
+        <nav>
+            <div class="logo">🌱 EcoLife</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tips">Eco Tips</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#challenge">Challenge</a></li>
+                <li><a href="#join" class="nav-cta">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ============ HERO SECTION ============ -->
+        <section id="home" class="hero">
+            <h1>Make Your Life More Eco-Friendly</h1>
+            <p class="subtitle">Small Changes &rarr; Big Impact</p>
+            <p>Join thousands of people building simple, sustainable habits that protect our planet for future
+                generations.</p>
+            <a href="#challenge" class="btn">Start Challenge</a>
+        </section>
+
+        <!-- ============ ABOUT SECTION ============ -->
+        <section id="about" class="about">
+            <h2>What is EcoLife?</h2>
+            <div class="about-content">
+                <p>
+                    EcoLife is a community platform that helps everyday people adopt eco-friendly
+                    habits. From reducing waste to saving energy, we make sustainable living simple,
+                    practical, and rewarding through daily tips and fun challenges.
+                </p>
+                <div class="info-box">
+                    🌍 Over 10,000 members have already joined our green movement!
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ECO TIPS SECTION ============ -->
+        <section id="tips" class="tips">
+            <h2>Eco Tips</h2>
+            <div class="tip-cards">
+
+                <article class="tip-card">
+                    <div class="tip-icon">♻️</div>
+                    <h3>Reduce Waste</h3>
+                    <p>Reuse containers, avoid single-use plastic, and recycle properly at home.</p>
+                </article>
+
+                <article class="tip-card">
+                    <div class="tip-icon">💧</div>
+                    <h3>Save Water</h3>
+                    <p>Turn off taps when not in use and fix leaks quickly to conserve water.</p>
+                </article>
+
+                <article class="tip-card">
+                    <div class="tip-icon">🌳</div>
+                    <h3>Plant Trees</h3>
+                    <p>Planting even one tree a year helps absorb carbon and supports wildlife.</p>
+                </article>
+
+                <article class="tip-card">
+                    <div class="tip-icon">⚡</div>
+                    <h3>Save Energy</h3>
+                    <p>Switch off unused appliances and choose energy-efficient lighting.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ============ PRODUCTS SECTION ============ -->
+        <section id="products" class="products">
+            <h2>Eco-Friendly Products</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Eco Rating</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bamboo Toothbrush</td>
+                        <td>Personal Care</td>
+                        <td>$3.00</td>
+                        <td>★★★★★</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Reusable Steel Bottle</td>
+                        <td>Drinkware</td>
+                        <td>$18.00</td>
+                        <td>★★★★☆</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Cloth Shopping Bag</td>
+                        <td>Accessories</td>
+                        <td>$5.00</td>
+                        <td>★★★★★</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Solar Charger</td>
+                        <td>Electronics</td>
+                        <td>$25.00</td>
+                        <td>★★★★☆</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ============ CHALLENGE SECTION ============ -->
+        <section id="challenge" class="challenge">
+            <h2>7-Day Green Challenge</h2>
+            <ol class="challenge-list">
+                <li>Avoid single-use plastic</li>
+                <li>Save electricity</li>
+                <li>Use public transport</li>
+                <li>Carry a reusable bottle</li>
+                <li>Plant a tree</li>
+                <li>Avoid food waste</li>
+                <li>Spend one day without plastic</li>
+            </ol>
+        </section>
+
+        <!-- ============ REGISTRATION FORM SECTION ============ -->
+        <section id="join" class="join-form">
+            <h2>Join the Challenge</h2>
+            <form>
+
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" min="10" max="100"><br><br>
+
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div><br>
+
+                <label for="goal">Sustainability Goal</label><br>
+                <select id="goal" name="goal">
+                    <option value="waste">Reduce Waste</option>
+                    <option value="water">Save Water</option>
+                    <option value="trees">Plant Trees</option>
+                    <option value="energy">Save Energy</option>
+                </select><br><br>
+
+                <label>Challenges You Want to Join</label><br>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="challenges" value="plastic"> Avoid single-use plastic</label>
+                    <label><input type="checkbox" name="challenges" value="transport"> Use public transport</label>
+                    <label><input type="checkbox" name="challenges" value="tree"> Plant a tree</label>
+                </div><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us why you're joining..."></textarea><br>
+
+                <div class="form-buttons">
+                    <button type="submit">Register</button>
+                    <button type="reset">Reset</button>
+                </div><br>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <p class="footer-logo">🌱 EcoLife</p>
+        <p>Small Changes. Sustainable Future.</p>
+        <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tips">Eco Tips</a></li>
+            <li><a href="#products">Products</a></li>
+        </ul>
+        <p>Contact us: hello@ecolife.com</p>
+        <p>&copy; 2026 EcoLife. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
