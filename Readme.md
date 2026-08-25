@@ -57,6 +57,10 @@ A few things I'd like to add down the line:
 
 Frontend prototype — HTML & CSS. This is a learning project, not a production-ready app.
 
+🌐 Live Website
+
+[Visit EcoLife Website](https://manya-anand01.github.io/Eco-Life/)
+
 👩‍💻 Author
 
 Manya Anand
